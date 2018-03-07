@@ -16,7 +16,6 @@ public class HelloWorld {
 	public WebDriver driver;
 	public Eyes eyes = new Eyes();
 
-	
 	@DataProvider(name = "Resolution")
 	Object[][] data_resolutions() {
 		return new Object[][] { { 1536, 760 }, { 1024, 768 }, { 800, 600 }, };
