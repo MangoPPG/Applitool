@@ -52,7 +52,7 @@ public class HelloWorld {
 
 		// Initialize the eyes SDK and set your private API key.
 
-		eyes.setApiKey("YM6aQGIgnE5cMJzeON1q77j2UpIYZAtvvYoOEiOcQJA110");
+		eyes.setApiKey("******");
 		// eyes.ForceFullPageScreenshot = true;
 		// eyes.StitchMode = StitchModes.CSS;
 		eyes.setLogHandler(new FileLogger("c:\\Automatisation\\file.log", true, true));
